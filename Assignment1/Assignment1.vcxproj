@@ -24,6 +24,7 @@
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Assignment1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <ProjectName>Assignment</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -151,19 +152,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Assignment1.h" />
+    <ClInclude Include="Assignment.h" />
     <ClInclude Include="BubbleSort.h" />
     <ClInclude Include="BucketSort.h" />
     <ClInclude Include="Exercise.h" />
     <ClInclude Include="InsertionSort.h" />
+    <ClInclude Include="OptionInput.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Assignment1.cpp" />
+    <ClCompile Include="Assignment.cpp" />
     <ClCompile Include="BubbleSort.cpp" />
     <ClCompile Include="Exercise.cpp" />
     <ClCompile Include="InsertionSort.cpp" />
+    <ClCompile Include="OptionInput.cpp" />
     <ClCompile Include="Program.cpp" />
     <ClCompile Include="BucketSort.cpp" />
     <ClCompile Include="pch.cpp">
@@ -174,7 +177,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Assignment1.rc" />
+    <ResourceCompile Include="Assignment.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

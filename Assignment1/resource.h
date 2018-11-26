@@ -1,6 +1,6 @@
 //{{NO_DEPENDENCIES}}
 // Microsoft Visual C++ generated include file.
-// Used by Assignment1.rc
+// Used by Assignment.rc
 
 // Next default values for new objects
 // 

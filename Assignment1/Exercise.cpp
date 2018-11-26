@@ -13,14 +13,28 @@ Exercise::~Exercise()
 }
 
 void Exercise::ChooseExersice() {
-	int option = 0;
-	std::cout << "Please select an exersice:\n";
-	for (int i = 1; i < 5; i++) {
-		std::cout << i << ". Exercise " << i << "\n";
+	std::cout << "Choose content:\n";
+	std::cout << "1. Bubble sort\n";
+	std::cout << "3. back\n";
+	int option = OptionInput::getInput();
+	switch (option)
+	{
+	case 1:
+		bubbleSort();
+		break;
+	case 2:
+		break;
+	case 3:
+		break;
+	default:
+		break;
 	}
-	while (!(std::cin >> option)) {
-		std::cin.clear();
-		std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-		std::cout << "incorrect input";
-	}
+}
+
+void Exercise::bubbleSort() {
+	std::cout << BubbleSort::getDiscription().c_str();
+	std::vector<int> vector = { 7, 9, 19, 1, 23, 5, 1, 1, 7, 23, 52, 1 };
+	BubbleSort::printVector(&vector);
+	BubbleSort::sortVector(&vector);
+	BubbleSort::printVector(&vector);
 }

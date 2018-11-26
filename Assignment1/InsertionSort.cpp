@@ -34,3 +34,7 @@ void InsertionSort::printVector(std::vector<int> *v) {
 	}
 	std::cout << "]\n";
 }
+
+std::string InsertionSort::getDiscription() {
+	return "Insertion sort:\n";
+}

@@ -13,17 +13,29 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Assignment1">
-      <UniqueIdentifier>{f31a18f7-b2dd-43c2-a767-74d66daa374b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Assignment1">
-      <UniqueIdentifier>{c6a733cd-3756-4372-84ba-a99a0a2f8781}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Exercises">
       <UniqueIdentifier>{24934d33-902c-4c2c-999d-17c7cf5e039b}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Exercises">
       <UniqueIdentifier>{b19fb1de-0a49-4240-af93-6073b2e57cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assignment">
+      <UniqueIdentifier>{f31a18f7-b2dd-43c2-a767-74d66daa374b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Assignment">
+      <UniqueIdentifier>{c6a733cd-3756-4372-84ba-a99a0a2f8781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assignment\Assignment1">
+      <UniqueIdentifier>{0edb37cd-329c-4e2d-a1cb-f018854f4566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Assignment\Assignment1">
+      <UniqueIdentifier>{545326ef-5fcb-4ec7-ad0d-e4f6d04669cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Assignment\Assignment2">
+      <UniqueIdentifier>{bd1a09ae-fb25-4c0b-aba3-876f91bb4ff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assignment\Assignment2">
+      <UniqueIdentifier>{f49f4f5b-442a-48c3-b939-9485e6f13e9f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -33,20 +45,23 @@
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BucketSort.h">
-      <Filter>Header Files\Assignment1</Filter>
-    </ClInclude>
-    <ClInclude Include="Assignment1.h">
-      <Filter>Header Files\Assignment1</Filter>
-    </ClInclude>
     <ClInclude Include="Exercise.h">
       <Filter>Header Files\Exercises</Filter>
     </ClInclude>
     <ClInclude Include="BubbleSort.h">
       <Filter>Header Files\Exercises</Filter>
     </ClInclude>
+    <ClInclude Include="OptionInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BucketSort.h">
+      <Filter>Header Files\Assignment\Assignment1</Filter>
+    </ClInclude>
+    <ClInclude Include="Assignment.h">
+      <Filter>Header Files\Assignment</Filter>
+    </ClInclude>
     <ClInclude Include="InsertionSort.h">
-      <Filter>Header Files\Assignment1</Filter>
+      <Filter>Header Files\Assignment\Assignment1</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -56,24 +71,27 @@
     <ClCompile Include="Program.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BucketSort.cpp">
-      <Filter>Source Files\Assignment1</Filter>
-    </ClCompile>
-    <ClCompile Include="Assignment1.cpp">
-      <Filter>Source Files\Assignment1</Filter>
-    </ClCompile>
     <ClCompile Include="Exercise.cpp">
       <Filter>Source Files\Exercises</Filter>
     </ClCompile>
     <ClCompile Include="BubbleSort.cpp">
       <Filter>Source Files\Exercises</Filter>
     </ClCompile>
+    <ClCompile Include="OptionInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Assignment.cpp">
+      <Filter>Source Files\Assignment</Filter>
+    </ClCompile>
     <ClCompile Include="InsertionSort.cpp">
-      <Filter>Source Files\Assignment1</Filter>
+      <Filter>Source Files\Assignment\Assignment1</Filter>
+    </ClCompile>
+    <ClCompile Include="BucketSort.cpp">
+      <Filter>Source Files\Assignment\Assignment1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Assignment1.rc">
+    <ResourceCompile Include="Assignment.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>

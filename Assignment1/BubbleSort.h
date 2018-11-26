@@ -6,7 +6,8 @@ class BubbleSort
 public:
 	BubbleSort();
 	~BubbleSort();
-	std::vector<int>* sortVector(std::vector<int>* v);
-	void printVector(std::vector<int>* v);
+	static std::vector<int>* sortVector(std::vector<int>* v);
+	static void printVector(std::vector<int>* v);
+	static std::string getDiscription();
 };
 

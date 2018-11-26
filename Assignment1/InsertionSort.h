@@ -8,5 +8,6 @@ public:
 	~InsertionSort();
 	static std::vector<int>* sortVector(std::vector<int>* v);
 	static void printVector(std::vector<int>* v);
+	static std::string getDiscription();
 };
 

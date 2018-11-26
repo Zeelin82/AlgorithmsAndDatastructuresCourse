@@ -58,5 +58,5 @@ void BucketSort::printVector(std::vector<int> *v) {
 }
 
 std::string BucketSort::getDiscription() {
-	return "BucketSort";
+	return "Bucket sort:\n";
 }
