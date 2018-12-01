@@ -35,14 +35,12 @@ std::vector<int>* BucketSort::sortVector(std::vector<int> *v) {
 		w[i]++;
 	}
 
-	// I felt that I wanted to end up with a sorted list so I returned the results from the bucketsort back to the original vector
+	// I felt that I wanted to end up with a sorted list so I returned the results from the bucket sort back to the original vector
 	int index = 0;
-	for (int i = 0; i < w.size(); i++) {
-		if (w[i] != 0) {
-			for (int j = 0; j < w[i]; j++) {
-				v->at(index) = i;
-				index++;
-			}
+	for (unsigned int i = 0; i < w.size(); i++) {
+		for (int j = 0; j < w[i]; j++) {
+			v->at(index) = i;
+			index++;
 		}
 	}
 
