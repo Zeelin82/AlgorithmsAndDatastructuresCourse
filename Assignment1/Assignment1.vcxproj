@@ -152,19 +152,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AdveseriesGraph.h" />
     <ClInclude Include="Assignment.h" />
     <ClInclude Include="BubbleSort.h" />
     <ClInclude Include="BucketSort.h" />
     <ClInclude Include="Exercise.h" />
+    <ClInclude Include="Graph.h" />
     <ClInclude Include="InsertionSort.h" />
     <ClInclude Include="OptionInput.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AdveseriesGraph.cpp" />
     <ClCompile Include="Assignment.cpp" />
     <ClCompile Include="BubbleSort.cpp" />
     <ClCompile Include="Exercise.cpp" />
+    <ClCompile Include="Graph.cpp" />
     <ClCompile Include="InsertionSort.cpp" />
     <ClCompile Include="OptionInput.cpp" />
     <ClCompile Include="Program.cpp" />

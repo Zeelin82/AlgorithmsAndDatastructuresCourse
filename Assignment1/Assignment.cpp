@@ -32,7 +32,7 @@ void Assignment::insertionSort() {
 }
 
 void Assignment::addVectors(std::vector<std::vector<int>> *v){
-	for (int i = 1; i < 10000; i *= 2) {
+	for (int i = 0; i < 100000; i = i + 500) {
 		std::vector<int> vector;
 		for (int j = 0; j < i; j++) {
 			vector.push_back(j);
@@ -48,13 +48,21 @@ void Assignment::benchmarkAndSort(std::vector<int> *v) {
 	auto after = std::chrono::high_resolution_clock::now();
 	auto delta = std::chrono::duration<double>(after-before);
 	printf("Vector size %i Time taken: %fs \n", v->size() ,delta.count());
+	//printf(" %f\n", delta.count()*1000);
+	std::string output = std::to_string(v->size()) + "x" + std::to_string(delta.count());
+	Assignment::writeToFile(output);
+}
+
+void Assignment::adveseriesGraph() {
+	AdveseriesGraph::graph();
 }
 
 void Assignment::chooseAssingment() {
 	std::cout << "Choose content:\n";
 	std::cout << "1. Bucket sort\n";
 	std::cout << "2. Insertion sort\n";
-	std::cout << "3. back\n";
+	std::cout << "3. AdveseryGraph \n";
+	std::cout << "4. back\n";
 	int option = OptionInput::getInput();
 	switch (option)
 	{
@@ -65,8 +73,20 @@ void Assignment::chooseAssingment() {
 		insertionSort();
 		break;
 	case 3:
+		adveseriesGraph();
+		break;
+	case 4:
 		break;
 	default:
 		break;
+	}
+}
+
+void Assignment::writeToFile(std::string text) {
+	std::ofstream file;
+	file.open("../output/insertionSort.txt", std::ios_base::app);
+	if (file.is_open()) {
+		file << text.c_str() << "\n";
+		file.close();
 	}
 }

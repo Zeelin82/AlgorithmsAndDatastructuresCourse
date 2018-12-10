@@ -63,6 +63,12 @@
     <ClInclude Include="InsertionSort.h">
       <Filter>Header Files\Assignment\Assignment1</Filter>
     </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Header Files\Assignment\Assignment2</Filter>
+    </ClInclude>
+    <ClInclude Include="AdveseriesGraph.h">
+      <Filter>Header Files\Assignment\Assignment2</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -88,6 +94,12 @@
     </ClCompile>
     <ClCompile Include="BucketSort.cpp">
       <Filter>Source Files\Assignment\Assignment1</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>Source Files\Assignment\Assignment2</Filter>
+    </ClCompile>
+    <ClCompile Include="AdveseriesGraph.cpp">
+      <Filter>Source Files\Assignment\Assignment2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
