@@ -38,8 +38,8 @@ void AdveseriesGraph::graph() {
 		std::cout << *i << " ";
 	}*/
 
-	//std::list<int> traversalOrder = g.breadthFirst(4);
-	std::list<int> traversalOrder = g.breadthFirst(0);
+	std::list<int> traversalOrder = g.breadthFirst(4);
+	//std::list<int> traversalOrder = g.breadthFirst(0);
 	std::list<int>::iterator i;
 	std::cout << "friends: ";
 	for (i = traversalOrder.begin(); i != traversalOrder.end(); i++) {

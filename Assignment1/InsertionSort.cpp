@@ -12,7 +12,7 @@ InsertionSort::~InsertionSort()
 }
 
 std::vector<int>* InsertionSort::sortVector(std::vector<int> *v) {
-	for (int i = 0; i < v->size(); i++) {
+	for (int i = 1; i < v->size(); i++) {
 		for (int j = i; j > 0; j--) {
 			if (v->at(j) < v->at(j - 1)) {
 				int temp = v->at(j - 1);
