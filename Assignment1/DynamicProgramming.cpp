@@ -25,7 +25,7 @@ int DynamicProgramming::dynamicFunction(std::map<int, int> &partialSum, int n) {
 	else {
 		sum += DynamicProgramming::dynamicFunction(partialSum, n - 1);
 		sum += DynamicProgramming::dynamicFunction(partialSum, ceil(static_cast<double>(n) / 2));
-		partialSum[n] = sum;
+		partialSum[n] = sum + n;
 	}
-	return sum + n;
+	return partialSum[n];
 }
