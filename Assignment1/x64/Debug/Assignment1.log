@@ -1,10 +1,23 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Assignment1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Assignment1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  pch.cpp
   AdveseriesGraph.cpp
   Assignment.cpp
-d:\school\algorithmsanddatastructures\algorithmsanddatastructurescourse\assignment1\assignment.cpp(50): warning C4477: 'printf' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
-  d:\school\algorithmsanddatastructures\algorithmsanddatastructurescourse\assignment1\assignment.cpp(50): note: consider using '%zi' in the format string
+d:\school\algoritmerochdatastrukturer\lab\assignment1\assignment1\assignment.cpp(49): warning C4477: 'printf' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  d:\school\algoritmerochdatastrukturer\lab\assignment1\assignment1\assignment.cpp(49): note: consider using '%zi' in the format string
+  BubbleSort.cpp
+d:\school\algoritmerochdatastrukturer\lab\assignment1\assignment1\bubblesort.cpp(15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  DynamicProgramming.cpp
+d:\school\algoritmerochdatastrukturer\lab\assignment1\assignment1\dynamicprogramming.cpp(17): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\school\algoritmerochdatastrukturer\lab\assignment1\assignment1\dynamicprogramming.cpp(27): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Exercise.cpp
   Graph.cpp
+  HuffmanCoding.cpp
   InsertionSort.cpp
+  OptionInput.cpp
   Program.cpp
+  BucketSort.cpp
+  Tree.cpp
+  TreeWrapper.cpp
   Generating Code...
-  Assignment1.vcxproj -> D:\School\AlgorithmsAndDatastructures\AlgorithmsAndDatastructuresCourse\x64\Debug\Assignment.exe
+  LINK : D:\School\AlgoritmerOchDatastrukturer\Lab\Assignment1\x64\Debug\Assignment.exe not found or not built by the last incremental link; performing full link
+  Assignment1.vcxproj -> D:\School\AlgoritmerOchDatastrukturer\Lab\Assignment1\x64\Debug\Assignment.exe
