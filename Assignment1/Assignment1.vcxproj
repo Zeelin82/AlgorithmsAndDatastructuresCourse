@@ -156,19 +156,25 @@
     <ClInclude Include="Assignment.h" />
     <ClInclude Include="BubbleSort.h" />
     <ClInclude Include="BucketSort.h" />
+    <ClInclude Include="DynamicProgramming.h" />
     <ClInclude Include="Exercise.h" />
     <ClInclude Include="Graph.h" />
+    <ClInclude Include="HuffmanCoding.h" />
     <ClInclude Include="InsertionSort.h" />
     <ClInclude Include="OptionInput.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="Tree.h" />
+    <ClInclude Include="TreeWrapper.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AdveseriesGraph.cpp" />
     <ClCompile Include="Assignment.cpp" />
     <ClCompile Include="BubbleSort.cpp" />
+    <ClCompile Include="DynamicProgramming.cpp" />
     <ClCompile Include="Exercise.cpp" />
     <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="HuffmanCoding.cpp" />
     <ClCompile Include="InsertionSort.cpp" />
     <ClCompile Include="OptionInput.cpp" />
     <ClCompile Include="Program.cpp" />
@@ -179,6 +185,8 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Tree.cpp" />
+    <ClCompile Include="TreeWrapper.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Assignment.rc" />

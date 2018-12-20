@@ -37,6 +37,18 @@
     <Filter Include="Source Files\Assignment\Assignment2">
       <UniqueIdentifier>{f49f4f5b-442a-48c3-b939-9485e6f13e9f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Assignment\Assignment3">
+      <UniqueIdentifier>{0c558799-8ec7-4ba8-9141-bad2fef04410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Assignment\Assignment3">
+      <UniqueIdentifier>{e0a8e198-6cf5-4224-89b0-75e26b9f0d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Assignment\Assignment4">
+      <UniqueIdentifier>{20083cbb-b76f-4e0f-ad82-2b1c36836be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Assignment\Assignment4">
+      <UniqueIdentifier>{eb2a61e6-e054-4392-86f3-955196e77c7d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -69,6 +81,18 @@
     <ClInclude Include="AdveseriesGraph.h">
       <Filter>Header Files\Assignment\Assignment2</Filter>
     </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Header Files\Assignment\Assignment3</Filter>
+    </ClInclude>
+    <ClInclude Include="HuffmanCoding.h">
+      <Filter>Header Files\Assignment\Assignment3</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeWrapper.h">
+      <Filter>Header Files\Assignment\Assignment3</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicProgramming.h">
+      <Filter>Header Files\Assignment\Assignment4</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -100,6 +124,18 @@
     </ClCompile>
     <ClCompile Include="AdveseriesGraph.cpp">
       <Filter>Source Files\Assignment\Assignment2</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>Source Files\Assignment\Assignment3</Filter>
+    </ClCompile>
+    <ClCompile Include="HuffmanCoding.cpp">
+      <Filter>Source Files\Assignment\Assignment3</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeWrapper.cpp">
+      <Filter>Source Files\Assignment\Assignment3</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicProgramming.cpp">
+      <Filter>Source Files\Assignment\Assignment4</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

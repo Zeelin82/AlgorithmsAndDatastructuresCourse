@@ -6,6 +6,8 @@
 #include <fstream>
 #include <string>
 #include "AdveseriesGraph.h"
+#include "HuffmanCoding.h"
+#include "DynamicProgramming.h"
 class Assignment
 {
 public:

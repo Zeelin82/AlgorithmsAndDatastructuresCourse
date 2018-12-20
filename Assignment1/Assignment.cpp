@@ -28,11 +28,10 @@ void Assignment::insertionSort() {
 	for (auto v : vectors) {
 		Assignment::benchmarkAndSort(&v);
 	}
-	
 }
 
 void Assignment::addVectors(std::vector<std::vector<int>> *v){
-	for (int i = 0; i < 100000; i = i + 500) {
+	for (int i = 0; i <= 100000; i += 100) {
 		std::vector<int> vector;
 		for (int j = 0; j < i; j++) {
 			vector.push_back(j);
@@ -48,7 +47,6 @@ void Assignment::benchmarkAndSort(std::vector<int> *v) {
 	auto after = std::chrono::high_resolution_clock::now();
 	auto delta = std::chrono::duration<double>(after-before);
 	printf("Vector size %i Time taken: %fs \n", v->size() ,delta.count());
-	//printf(" %f\n", delta.count()*1000);
 	std::string output = std::to_string(v->size()) + "x" + std::to_string(delta.count());
 	Assignment::writeToFile(output);
 }
@@ -62,7 +60,7 @@ void Assignment::chooseAssingment() {
 	std::cout << "1. Bucket sort\n";
 	std::cout << "2. Insertion sort\n";
 	std::cout << "3. AdveseryGraph \n";
-	std::cout << "4. back\n";
+	std::cout << "4. HuffMan\n";
 	int option = OptionInput::getInput();
 	switch (option)
 	{
@@ -76,7 +74,17 @@ void Assignment::chooseAssingment() {
 		adveseriesGraph();
 		break;
 	case 4:
+		HuffmanCoding::compressString("a dead dad ceded a bad babe a beaded abaca bed");
 		break;
+	case 5:
+	{
+		int n = 11;
+		int nonDynSum = DynamicProgramming::nonDynamicFunction(n);
+		std::map<int, int> partialSum;
+		partialSum[1] = 1;
+		int sum = DynamicProgramming::dynamicFunction(partialSum, n);
+		break;
+	}
 	default:
 		break;
 	}
