@@ -1,0 +1,9 @@
+﻿  Assignment.cpp
+d:\school\algorithmsanddatastructures\algorithmsanddatastructurescourse\assignment1\assignment.cpp(50): warning C4477: 'printf' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+  d:\school\algorithmsanddatastructures\algorithmsanddatastructurescourse\assignment1\assignment.cpp(50): note: consider using '%zi' in the format string
+  Generating code
+  1 of 750 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Assignment1.vcxproj -> D:\School\AlgorithmsAndDatastructures\AlgorithmsAndDatastructuresCourse\x64\Release\Assignment.exe

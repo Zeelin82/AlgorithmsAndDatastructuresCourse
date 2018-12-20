@@ -20,7 +20,6 @@ class Graph
 {
 private:
 	int vertecies;
-	
 	std::list<int>* advesaries; //an array containing lists to each adjecent adveseries
 public:
 	Graph();

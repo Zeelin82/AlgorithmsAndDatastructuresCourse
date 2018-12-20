@@ -33,7 +33,7 @@ void Assignment::insertionSort() {
 void Assignment::addVectors(std::vector<std::vector<int>> *v){
 	for (int i = 0; i <= 100000; i += 100) {
 		std::vector<int> vector;
-		for (int j = 0; j < i; j++) {
+		for (int j = i - 1; j >= 0; j--) {
 			vector.push_back(j);
 		}
 		std::random_shuffle(vector.begin(), vector.end());
